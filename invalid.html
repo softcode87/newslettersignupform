@@ -10,7 +10,7 @@
         <title>NewsLettersigunpformwithsuccessmessage</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="invalid.css">
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -30,10 +30,15 @@
                             </ul>
                         </div>
                         <div class="inputs">
-                            <label for="Email">Email address</label> <br>
-                            <input type="email" placeholder="email@company.com"> <br>
-                            <a href="sucess.html"><button id="buttonclick" onclick="checkEmail()">Subscribe to monthly newsletter</button></a>
-            
+                            <div class="valid">
+                                <p for="Email">Email address</p> 
+                                <span>valid email required</span>
+    
+                            </div>
+                            
+                            <input class="place" type="email" placeholder="ash#loremcompany.com"> <br>
+                            <a href="invalid.html"><button onclick="showSuccessMessage()">Subscribe to monthly newsletter</button></a>
+
                         </div>
     
                     </div>
